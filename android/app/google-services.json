@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "286250851659",
+    "project_id": "login-mock-8dee3",
+    "storage_bucket": "login-mock-8dee3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:286250851659:android:ced5f3c93c0c9635b81cce",
+        "android_client_info": {
+          "package_name": "com.example.login"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOCJCOs89g-YPCapR1mwvNXbkAvIktuAQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
