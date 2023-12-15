@@ -109,8 +109,6 @@ class _RegistrationPageState extends State<RegistrationPage> {
                   registration();
                 },
                 child: Icon(Icons.app_registration)),
-            ElevatedButton(
-                onPressed: () {}, child: Icon(Icons.logo_dev_outlined))
           ]),
         ),
       ),

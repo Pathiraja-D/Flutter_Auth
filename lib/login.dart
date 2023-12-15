@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:login/forgot_password.dart';
 import 'package:login/home.dart';
+import 'package:login/services/auth.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
@@ -106,7 +107,11 @@ class _LoginPageState extends State<LoginPage> {
                   userLogin();
                 },
                 child: Icon(Icons.login)),
-            ElevatedButton(onPressed: () {}, child: Icon(Icons.logo_dev_outlined)),
+            ElevatedButton(
+                onPressed: () {
+                  AuthMethods().signInWithGoogle(context);
+                },
+                child: Icon(Icons.logo_dev_outlined)),
           ]),
         ),
       ),
